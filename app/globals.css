@@ -16,6 +16,15 @@
   @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
 }
 
+.blinking-cursor {
+  border-right: 2px solid;
+  animation: blink 0.7s step-start infinite;
+}
 
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
 
 }

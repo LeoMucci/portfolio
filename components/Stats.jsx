@@ -5,16 +5,16 @@ import CountUp from "react-countup";
 
 const stats = [
     {
-        num: 12,
+        num: 3,
         text: "years of experience"
     },
     {
-        num: 26,
+        num: 10,
         text: "Projects completed"
     },
     {
         num: 8,
-        text: "technologies martered"
+        text: "technologies mastered"
     },
     {
         num: 500,
